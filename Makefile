@@ -15,7 +15,7 @@ container-restore:
 
 run-restore:
 	docker run -it --rm crac_example_restore \
-	java -XX:CRaCRestoreFrom=/opt/crac-files
+	java -XX:CRaCRestoreFrom=/opt/crac-files || true
 
 clean:
 	mvn clean
