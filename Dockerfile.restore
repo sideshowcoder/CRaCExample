@@ -1,0 +1,2 @@
+FROM crac_example
+COPY crac-files /opt/crac-files
